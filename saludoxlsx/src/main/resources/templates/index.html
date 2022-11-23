@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Colors</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <div style="height: 50px;"><h1>Hello [[ ${name} ]] to an colored Excel class!</h1></div>
+    <div th:style="'background-color: '+@{${color}}+'; height: 300px;'"></div>
+</body>
+</html>

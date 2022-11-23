@@ -1,0 +1,7 @@
+{
+  "mar.example.foo": "Mi cadena de ejemplo",
+  "mar.example.bar.msp": "MSP",
+  "mar.example.bar.satec": "SATEC",
+  "mar.example.bar.oracle": "ORACLE",
+  "mar.example.bar.auth-pxy": "AuthPXY"
+}

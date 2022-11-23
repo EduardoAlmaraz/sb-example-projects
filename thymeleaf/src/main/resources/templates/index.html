@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="utf-8" />
+    <title>Persons</title>
+  </head>
+  <body>
+    <h1>Pagina inicio Thymeleaf</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Apellido</th>
+          <th>Dirección</th>
+          <th>Teléfono</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr th:each="person : ${persons}">
+            <td th:text="${person.firstname}"></td>
+            <td th:text="${person.lastname}"></td>
+            <td th:text="${person.address}"></td>
+            <td th:text="${person.phone}"></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+mar:
+  example:
+    foo: Mi cadena de ejemplo
+    bar:
+      msp: MSP
+      satec: SATEC
+      oracle: ORACLE
+      auth-pxy: AuthPXY

@@ -1,7 +1,7 @@
 {
   "mar.example.foo": "Mi cadena de ejemplo",
-  "mar.example.bar.msp": "MSP",
-  "mar.example.bar.satec": "SATEC",
-  "mar.example.bar.oracle": "ORACLE",
-  "mar.example.bar.auth-pxy": "AuthPXY"
+  "mar.example.bar.var1": "val1",
+  "mar.example.bar.var2": "val2",
+  "mar.example.bar.var3": "val3",
+  "mar.example.bar.var4": "val4"
 }
